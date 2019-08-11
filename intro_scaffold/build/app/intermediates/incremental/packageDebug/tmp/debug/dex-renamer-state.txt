@@ -1,0 +1,4 @@
+#Fri Aug 02 23:55:46 IST 2019
+base.0=/home/azzam/IdeaProjects/intro_scaffold/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,4 @@
+#Sat Aug 10 01:15:53 IST 2019
+base.0=/home/azzam/IdeaProjects/Flutter_Projects/bmi_app/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
