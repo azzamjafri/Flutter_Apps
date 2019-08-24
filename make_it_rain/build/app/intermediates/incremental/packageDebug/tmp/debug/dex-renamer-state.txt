@@ -1,4 +1,4 @@
-#Sun Aug 04 01:54:59 IST 2019
+#Thu Aug 22 21:46:49 IST 2019
 base.0=/home/azzam/IdeaProjects/Flutter_Projects/make_it_rain/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

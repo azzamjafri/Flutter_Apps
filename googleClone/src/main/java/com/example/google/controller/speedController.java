@@ -2,16 +2,22 @@ package com.example.google.controller;
 
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
-@RestController
+@RequestMapping("")
 public class speedController {
 
-    @RequestMapping(value = "*azzam*", method = RequestMethod.GET)
-    public String speedTest() {
-        return "home/speedTest";
+//    @ResponseBody
+    @RequestMapping(value = "/google", method = RequestMethod.GET)
+    public String speedTest(@RequestParam("q") String q) {
+
+        if(q.contains("speed ") || q.contains("Speed ") || q.contains(" speed") || q.contains(" Speed")) {
+
+            return "home/speedTest";
+        }
+
+
+        return "home/error";
     }
 }
